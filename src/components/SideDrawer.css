@@ -1,0 +1,14 @@
+.sidedrawer {
+  background-color: whitesmoke;
+  width: 70%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-out;
+  z-index: 250;
+}
+.sidedrawer.show {
+  transform: translateX(0);
+}
