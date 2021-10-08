@@ -4,6 +4,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLogoInstagram } from "react-icons/io";
 import { FaFacebookF } from "react-icons/fa";
+import "./Navbar.css";
 
 const Header = () => {
   return (
@@ -17,8 +18,10 @@ const Header = () => {
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
-        <BsFillTelephoneFill color="white" size={18} />
-        <p style={{ color: "white", marginLeft: 6 }}>+1 561-315-0681</p>
+        <BsFillTelephoneFill color="white" size={18} className="no-show" />
+        <p className="no-show" style={{ color: "white", marginLeft: 6 }}>
+          +1 561-315-0681
+        </p>
       </div>
       <div style={{ display: "flex", alignItems: "center" }}>
         <AiOutlineMail color="white" size={18} />
@@ -31,9 +34,15 @@ const Header = () => {
           display: "flex",
           alignItems: "center",
         }}
+        className="no-show"
       >
-        <IoLogoInstagram color="white" size={18} />
-        <FaFacebookF color="white" size={18} style={{ marginLeft: 12 }} />
+        <IoLogoInstagram color="white" size={18} className="no-show" />
+        <FaFacebookF
+          color="white"
+          size={18}
+          style={{ marginLeft: 12 }}
+          className="no-show"
+        />
       </div>
     </div>
   );
