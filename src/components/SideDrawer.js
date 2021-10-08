@@ -1,13 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./SideDrawer.css";
 import drawerImage from "../assets/drawer-logo.jpg";
 import { IoIosArrowForward } from "react-icons/io";
 import { appColors } from "../styles/appColors";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import { IoLogoInstagram } from "react-icons/io";
-import { FaFacebookF } from "react-icons/fa";
 
 const SideDrawer = ({ active, setActive }) => {
   return (
