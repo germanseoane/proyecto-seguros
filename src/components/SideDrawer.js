@@ -48,6 +48,7 @@ const SideDrawer = ({ active, setActive }) => {
           </p>
         </div>
       </div>
+      <div className="end"></div>
     </div>
   );
 };
