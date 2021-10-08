@@ -20,12 +20,11 @@
   align-items: center;
 }
 .image {
-  height: 92%;
-  width: 92%;
-  object-fit: cover;
-  display: flex;
-  justify-self: center;
+  width: 80%;
+  height: 80%;
+  object-fit: scale-down;
 }
+
 .item {
   height: 20%;
   display: flex;
