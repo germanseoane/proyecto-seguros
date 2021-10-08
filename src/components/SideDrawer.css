@@ -21,6 +21,10 @@
 }
 .image {
   height: 92%;
+  width: 92%;
+  object-fit: cover;
+  display: flex;
+  justify-self: center;
 }
 .item {
   height: 20%;
