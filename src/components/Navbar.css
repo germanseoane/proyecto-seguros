@@ -52,4 +52,10 @@ h3:hover {
   .hamburger {
     display: flex;
   }
+  .no-show {
+    display: none;
+  }
+  .logo {
+    height: 80%;
+  }
 }
