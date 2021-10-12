@@ -42,3 +42,12 @@
   background-color: var(--primary-color);
   color: whitesmoke;
 }
+
+@media (max-width: 480px) {
+  .info-btn {
+    width: 200px;
+  }
+  .main-info {
+    font-size: 14px;
+  }
+}
