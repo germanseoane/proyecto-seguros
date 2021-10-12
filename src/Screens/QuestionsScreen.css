@@ -17,10 +17,9 @@
   align-items: center;
   color: rgb(22, 21, 21);
   width: 90%;
-  height: 112vh;
+  height: 174vh;
   padding: 20px;
-  flex-wrap: wrap;
-  margin-top: 394px;
+  margin-top: 840px;
 }
 .question-opacity {
   width: 100%;
@@ -48,4 +47,9 @@
 .info-btn:hover {
   background-color: var(--primary-color);
   color: whitesmoke;
+}
+@media (max-width: 754px) {
+  .long-text {
+    font-size: 16px;
+  }
 }
