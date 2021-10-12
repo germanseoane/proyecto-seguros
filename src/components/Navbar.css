@@ -35,6 +35,8 @@ h3:hover {
   margin-top: -1px;
   border: none;
   cursor: pointer;
+  width: 210px;
+  text-overflow: ellipsis;
 }
 .select:hover {
   background-color: whitesmoke;
@@ -42,6 +44,7 @@ h3:hover {
 .hamburger:hover {
   color: grey;
 }
+
 @media (max-width: 900px) {
   h3 {
     display: none;
