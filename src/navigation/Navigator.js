@@ -4,6 +4,7 @@ import BackDrop from "../components/BackDrop";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import SideDrawer from "../components/SideDrawer";
+import ContactScreen from "../Screens/ContactScreen";
 import ErrorScreen from "../Screens/ErrorScreen";
 import QuestionsScreen from "../Screens/QuestionsScreen";
 import WelcomeScreen from "../Screens/WelcomeScreen";
@@ -22,6 +23,7 @@ const Navigator = () => {
         <Route exact path="/questions">
           <QuestionsScreen question={question} />
         </Route>
+        <Route exact path="/contact" component={ContactScreen} />
         <Route path="*" component={ErrorScreen} />
       </Switch>
     </Router>

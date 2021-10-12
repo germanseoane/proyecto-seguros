@@ -5,14 +5,22 @@ import { IoIosArrowForward } from "react-icons/io";
 import { appColors } from "../styles/appColors";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import { useHistory } from "react-router";
 
 const SideDrawer = ({ active, setActive }) => {
+  const history = useHistory();
+
+  const handleClick = (value) => {
+    setActive(false);
+    history.push(value);
+  };
+
   return (
     <div className={active ? "sidedrawer show" : "sidedrawer"}>
       <div className="drawer-header">
         <img alt="logo" src={drawerImage} className="image" />
       </div>
-      <div className="item">
+      <div className="item" onClick={() => handleClick("/")}>
         Sobre Nosotros
         <IoIosArrowForward
           size={22}
@@ -20,7 +28,7 @@ const SideDrawer = ({ active, setActive }) => {
           style={{ marginTop: 2 }}
         />
       </div>
-      <div className="item">
+      <div className="item" onClick={() => handleClick("/questions")}>
         Preguntas Frecuentes{" "}
         <IoIosArrowForward
           size={22}
@@ -28,7 +36,7 @@ const SideDrawer = ({ active, setActive }) => {
           style={{ marginTop: 2 }}
         />
       </div>
-      <div className="item">
+      <div className="item" onClick={() => handleClick("/contact")}>
         Contactenos{" "}
         <IoIosArrowForward
           size={22}
