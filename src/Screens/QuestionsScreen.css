@@ -19,7 +19,7 @@
   width: 96%;
   height: fit-content;
   padding: 20px;
-  top: 166px;
+  top: 174px;
 }
 .question-opacity {
   width: 100%;
@@ -63,7 +63,7 @@
   justify-content: space-between;
   border-radius: 120px;
   padding: 20px;
-  opacity: 0.8;
+  opacity: 0.9;
   border: solid 1px rgb(230, 225, 225);
 }
 
