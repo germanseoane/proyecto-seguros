@@ -25,7 +25,7 @@ const QuestionsScreen = ({ question, setQuestion }) => {
       <div className="question-info">
         {question === OBAMACARE && (
           <>
-            <h1>Que es Obamacare?</h1>
+            <h1 className="shrink">Que es Obamacare?</h1>
             <p className="long-text">
               Obamacare asigna un subsidio a las familias para ayudarles a pagar
               su seguro médico. <br />
@@ -57,7 +57,7 @@ const QuestionsScreen = ({ question, setQuestion }) => {
         )}
         {question === INSCRIPTION && (
           <>
-            <h1>Cual es el periodo de inscripcion?</h1>
+            <h1 className="shrink">Cual es el periodo de inscripcion?</h1>
             <p className="long-text">
               El período de inscripción para el seguro Obama care 2022
               (Obamacare Open Enrollment) comienza el 1° de noviembre y finaliza
@@ -71,7 +71,7 @@ const QuestionsScreen = ({ question, setQuestion }) => {
         )}
         {question === QUALIFY && (
           <>
-            <h1>Que requisitos necesito para calificar?</h1>
+            <h1 className="shrink">Que requisitos necesito para calificar?</h1>
             <p className="long-text">
               _Tener un estatus migratorio legal en Estados Unidos (Permiso de
               _trabajo, residencia, ciudadanía)
@@ -90,7 +90,7 @@ const QuestionsScreen = ({ question, setQuestion }) => {
         )}
         {question === SERVICES && (
           <>
-            <h1>
+            <h1 className="shrink">
               Qué servicios y coberturas brinda el seguro médico Obama care?
             </h1>
             <p className="long-text">
@@ -115,7 +115,9 @@ const QuestionsScreen = ({ question, setQuestion }) => {
         )}
         {question === BENEFITS && (
           <>
-            <h1>Qué beneficios tiene el plan de seguros Obama Care?</h1>
+            <h1 className="shrink">
+              Qué beneficios tiene el plan de seguros Obama Care?
+            </h1>
             <p className="long-text">
               Permite a los adultos jóvenes continuar en los planes de sus
               padres hasta los 26 años.
@@ -159,7 +161,9 @@ const QuestionsScreen = ({ question, setQuestion }) => {
         )}
         {question === COST && (
           <>
-            <h1>Qué costo tiene el plan de seguro médico Obama Care?</h1>
+            <h1 className="shrink">
+              Qué costo tiene el plan de seguro médico Obama Care?
+            </h1>
             <p className="long-text">
               Los precios de un seguro médico de Obamacare están entre los 0 USD
               y los 75 USD. <br />
@@ -193,7 +197,7 @@ const QuestionsScreen = ({ question, setQuestion }) => {
         )}
         {question === WHEN && (
           <>
-            <h1>
+            <h1 className="shrink">
               A partir de cuándo puedo empezar a usar mi cobertura de salud?
             </h1>
             <p className="long-text">

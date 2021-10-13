@@ -19,7 +19,7 @@
   width: 96%;
   height: fit-content;
   padding: 20px;
-  top: 150px;
+  top: 166px;
 }
 .question-opacity {
   width: 100%;
@@ -77,6 +77,9 @@
 @media (max-width: 754px) {
   .long-text {
     font-size: 16px;
+  }
+  .shrink {
+    font-size: 22px;
   }
 }
 @media (max-width: 500px) {
