@@ -13,6 +13,7 @@ import {
 import mainImage from "../assets/questions.jpg";
 import SelectQuestion from "../components/SelectQuestion";
 import InsuranceLogos from "../components/InsuranceLogos";
+import Footer from "../components/Footer";
 
 const QuestionsScreen = ({ question, setQuestion }) => {
   return (
@@ -215,9 +216,9 @@ const QuestionsScreen = ({ question, setQuestion }) => {
           </>
         )}
         {question === WORK && <InsuranceLogos />}
-
         <button className="info-btn">Contactenos ahora</button>
       </div>
+      <Footer />
     </div>
   );
 };

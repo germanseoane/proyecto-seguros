@@ -2,6 +2,7 @@ import React from "react";
 import homeImage from "../assets/homepage.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 import "./WelcomeScreen.css";
+import Footer from "../components/Footer";
 
 const WelcomeScreen = () => {
   return (
@@ -54,6 +55,7 @@ const WelcomeScreen = () => {
           clientes.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };
