@@ -24,7 +24,7 @@ h3 {
 h3:hover {
   background-color: whitesmoke;
 }
-.select {
+.first-select {
   outline: none;
   border: none;
   font-size: 19px;
@@ -38,7 +38,7 @@ h3:hover {
   width: 210px;
   text-overflow: ellipsis;
 }
-.select:hover {
+.first-select:hover {
   background-color: whitesmoke;
 }
 .hamburger:hover {
@@ -49,7 +49,7 @@ h3:hover {
   h3 {
     display: none;
   }
-  select {
+  .first-select {
     display: none;
   }
   .hamburger {

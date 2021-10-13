@@ -1,8 +1,4 @@
 import React from "react";
-import "./Navbar.css";
-import logo from "../assets/logo.jpeg";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { Link, useHistory } from "react-router-dom";
 import {
   OBAMACARE,
   INSCRIPTION,
@@ -13,22 +9,18 @@ import {
   WHEN,
   WORK,
 } from "../utils/constants";
+import "./SelectQuestion.css";
 
-const Navbar = ({ active, setActive, setQuestion }) => {
-  const history = useHistory();
-
+const SelectQuestion = ({ question, setQuestion }) => {
   const handleClick = (value) => {
     if (value === "DEFAULT") return;
-    history.push("/questions");
     setQuestion(value);
   };
 
   return (
-    <div className="main-navbar">
-      <img src={logo} alt="logo" className="logo" />
-
+    <>
       <select
-        className="first-select"
+        className="second-select"
         onChange={(e) => handleClick(e.target.value)}
       >
         <option value={"DEFAULT"}>Preguntas frecuentes</option>
@@ -54,20 +46,8 @@ const Navbar = ({ active, setActive, setQuestion }) => {
           Qué compañías de seguros trabajan con Obamacare en Florida?
         </option>
       </select>
-      <Link to="/" className="nav-link">
-        <h3>Sobre Nosotros</h3>
-      </Link>
-
-      <Link to="/contact" className="nav-link">
-        <h3>CONTACTENOS</h3>
-      </Link>
-      <GiHamburgerMenu
-        size={24}
-        onClick={() => setActive(!active)}
-        className="hamburger"
-      />
-    </div>
+    </>
   );
 };
 
-export default Navbar;
+export default SelectQuestion;

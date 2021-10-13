@@ -11,12 +11,16 @@ import {
   WORK,
 } from "../utils/constants";
 import mainImage from "../assets/questions.jpg";
+import SelectQuestion from "../components/SelectQuestion";
 
-const QuestionsScreen = ({ question }) => {
+const QuestionsScreen = ({ question, setQuestion }) => {
   return (
     <div className="main">
       <img src={mainImage} alt="qImage" className="main-image" />
       <div className="question-opacity"></div>
+      <div className="select-question">
+        <SelectQuestion question={question} setQuestion={setQuestion} />
+      </div>
       <div className="question-info">
         {question === OBAMACARE && (
           <>

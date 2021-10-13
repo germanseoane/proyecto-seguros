@@ -48,6 +48,16 @@
   background-color: var(--primary-color);
   color: whitesmoke;
 }
+.select-question {
+  display: none;
+}
+@media (max-width: 900px) {
+  .select-question {
+    display: flex;
+    width: 100%;
+  }
+}
+
 @media (max-width: 754px) {
   .long-text {
     font-size: 16px;

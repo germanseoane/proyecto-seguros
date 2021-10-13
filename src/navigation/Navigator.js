@@ -21,7 +21,7 @@ const Navigator = () => {
       <Switch>
         <Route exact path="/" component={WelcomeScreen} />
         <Route exact path="/questions">
-          <QuestionsScreen question={question} />
+          <QuestionsScreen question={question} setQuestion={setQuestion} />
         </Route>
         <Route exact path="/contact" component={ContactScreen} />
         <Route path="*" component={ErrorScreen} />
