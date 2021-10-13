@@ -6,7 +6,7 @@
 }
 .main-image {
   width: 100%;
-  height: 88vh;
+  height: 102vh;
   object-fit: cover;
   color-adjust: 10%;
 }
@@ -23,7 +23,7 @@
 }
 .question-opacity {
   width: 100%;
-  height: 88vh;
+  height: 102vh;
   position: absolute;
   background-color: white;
   opacity: 0.6;
@@ -88,9 +88,9 @@
     height: 100%;
   }
   .main-image {
-    height: 128vh;
+    height: 148vh;
   }
   .question-opacity {
-    height: 128vh;
+    height: 148vh;
   }
 }
