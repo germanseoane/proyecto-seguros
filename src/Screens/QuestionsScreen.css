@@ -16,10 +16,10 @@
   flex-direction: column;
   align-items: center;
   color: rgb(22, 21, 21);
-  width: 90%;
-  height: 174vh;
+  width: 96%;
+  height: fit-content;
   padding: 20px;
-  margin-top: 840px;
+  top: 150px;
 }
 .question-opacity {
   width: 100%;
