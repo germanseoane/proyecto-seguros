@@ -12,6 +12,7 @@ import {
 } from "../utils/constants";
 import mainImage from "../assets/questions.jpg";
 import SelectQuestion from "../components/SelectQuestion";
+import InsuranceLogos from "../components/InsuranceLogos";
 
 const QuestionsScreen = ({ question, setQuestion }) => {
   return (
@@ -209,9 +210,7 @@ const QuestionsScreen = ({ question, setQuestion }) => {
             </p>
           </>
         )}
-        {question === WORK && (
-          <h1>Qué compañías de seguros trabajan con Obamacare en Florida?</h1>
-        )}
+        {question === WORK && <InsuranceLogos />}
 
         <button className="info-btn">Contactenos ahora</button>
       </div>

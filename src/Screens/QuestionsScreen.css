@@ -28,6 +28,7 @@
   background-color: white;
   opacity: 0.6;
 }
+
 .long-text {
   font-size: 18px;
 }
@@ -51,6 +52,21 @@
 .select-question {
   display: none;
 }
+.question-logo {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4px;
+  align-items: center;
+  height: 18px;
+  justify-content: space-between;
+  border-radius: 120px;
+  padding: 20px;
+  opacity: 0.8;
+  border: solid 1px rgb(230, 225, 225);
+}
+
 @media (max-width: 900px) {
   .select-question {
     display: flex;
@@ -61,5 +77,10 @@
 @media (max-width: 754px) {
   .long-text {
     font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .insurance-image {
+    height: 100%;
   }
 }
