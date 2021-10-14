@@ -20,9 +20,7 @@ const QuestionsScreen = ({ question, setQuestion }) => {
     <div className="main">
       <img src={mainImage} alt="qImage" className="main-image" />
       <div className="question-opacity"></div>
-      <div className="select-question">
-        <SelectQuestion question={question} setQuestion={setQuestion} />
-      </div>
+
       <div className="question-info">
         {question === OBAMACARE && (
           <>
@@ -216,7 +214,7 @@ const QuestionsScreen = ({ question, setQuestion }) => {
           </>
         )}
         {question === WORK && <InsuranceLogos />}
-        <button className="info-btn">Contactenos ahora</button>
+        <button className="questions-btn">Contactenos ahora</button>
       </div>
       <Footer />
     </div>

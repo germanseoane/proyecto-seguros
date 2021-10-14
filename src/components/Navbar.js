@@ -27,6 +27,9 @@ const Navbar = ({ active, setActive, setQuestion }) => {
     <div className="main-navbar">
       <img src={logo} alt="logo" className="logo" />
 
+      <Link to="/" className="nav-link">
+        <h3>Sobre Nosotros</h3>
+      </Link>
       <select
         className="first-select"
         onChange={(e) => handleClick(e.target.value)}
@@ -54,9 +57,6 @@ const Navbar = ({ active, setActive, setQuestion }) => {
           Qué compañías de seguros trabajan con Obamacare en Florida?
         </option>
       </select>
-      <Link to="/" className="nav-link">
-        <h3>Sobre Nosotros</h3>
-      </Link>
 
       <Link to="/contact" className="nav-link">
         <h3>CONTACTENOS</h3>
