@@ -11,7 +11,6 @@ import {
   WORK,
 } from "../utils/constants";
 import mainImage from "../assets/questions.jpg";
-import SelectQuestion from "../components/SelectQuestion";
 import InsuranceLogos from "../components/InsuranceLogos";
 import Footer from "../components/Footer";
 
