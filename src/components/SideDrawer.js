@@ -51,7 +51,7 @@ const SideDrawer = ({ active, setActive }) => {
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
           <AiOutlineMail color="white" size={18} />
-          <p style={{ color: "white", marginLeft: 6 }}>
+          <p style={{ color: "white", marginLeft: 6, fontSize: 14 }}>
             info@dpseguroslatinos.com
           </p>
         </div>
