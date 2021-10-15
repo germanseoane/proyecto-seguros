@@ -3,8 +3,11 @@ import homeImage from "../assets/homepage.jpg";
 import { FaWhatsapp } from "react-icons/fa";
 import "./WelcomeScreen.css";
 import Footer from "../components/Footer";
+import { useHistory } from "react-router-dom";
 
 const WelcomeScreen = () => {
+  const history = useHistory();
+
   return (
     <div className="main">
       <img alt="home" src={homeImage} className="home-image" />
@@ -39,7 +42,9 @@ const WelcomeScreen = () => {
           Brindamos seguro Obamacare para toda la comunidad latina desde $ 0
           Dolar.
         </p>
-        <button className="info-btn">Quiero asesorarme</button>
+        <button className="info-btn" onClick={() => history.push("/contact")}>
+          Quiero asesorarme
+        </button>
         <h1>Quienes Somos?</h1>
         <p>
           Somos una empresa familiar, dedicados a educar y ayudar a todas

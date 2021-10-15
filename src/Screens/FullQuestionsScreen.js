@@ -3,8 +3,11 @@ import fullImage from "../assets/full-image.jpg";
 import "./FullQuestionsScreen.css";
 import InsuranceLogos from "../components/InsuranceLogos";
 import Footer from "../components/Footer";
+import { useHistory } from "react-router-dom";
 
 const FullQuestionsScreen = () => {
+  const history = useHistory();
+
   return (
     <>
       <div className="main-full">
@@ -180,7 +183,12 @@ const FullQuestionsScreen = () => {
           </p>
 
           <InsuranceLogos />
-          <button className="questions-btn">Contactenos ahora</button>
+          <button
+            className="questions-btn"
+            onClick={() => history.push("/contact")}
+          >
+            Contactenos ahora
+          </button>
         </div>
       </div>
       <Footer />

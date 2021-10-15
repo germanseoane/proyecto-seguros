@@ -84,7 +84,7 @@
     font-size: 22px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .insurance-image {
     height: 100%;
   }

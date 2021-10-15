@@ -13,8 +13,11 @@ import {
 import mainImage from "../assets/questions.jpg";
 import InsuranceLogos from "../components/InsuranceLogos";
 import Footer from "../components/Footer";
+import { useHistory } from "react-router-dom";
 
 const QuestionsScreen = ({ question, setQuestion }) => {
+  const history = useHistory();
+
   return (
     <div className="main">
       <img src={mainImage} alt="qImage" className="main-image" />
@@ -213,7 +216,12 @@ const QuestionsScreen = ({ question, setQuestion }) => {
           </>
         )}
         {question === WORK && <InsuranceLogos />}
-        <button className="questions-btn">Contactenos ahora</button>
+        <button
+          className="questions-btn"
+          onClick={() => history.push("/contact")}
+        >
+          Contactenos ahora
+        </button>
       </div>
       <Footer />
     </div>

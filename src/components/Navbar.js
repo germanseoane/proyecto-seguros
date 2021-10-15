@@ -67,7 +67,7 @@ const Navbar = ({ active, setActive, setQuestion }) => {
         <h3>CONTACTENOS</h3>
       </Link>
       <GiHamburgerMenu
-        size={24}
+        size={32}
         onClick={() => setActive(!active)}
         className="hamburger"
       />
