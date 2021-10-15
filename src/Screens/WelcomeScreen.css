@@ -36,7 +36,7 @@
   background-color: whitesmoke;
   color: var(--primary-color);
   border-radius: 4px;
-  margin-top: 20px;
+  margin-top: 12px;
   font-size: 18px;
   font-family: "Arimo", "Segoe UI";
   font-weight: bold;
@@ -51,14 +51,22 @@
   margin-top: 10px;
 }
 
+@media (max-width: 704px) {
+  .opacity {
+    margin-top: 0;
+    margin-bottom: 6vh;
+  }
+  .main-info {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 480px) {
   .info-btn {
     width: 200px;
     font-size: 15px;
   }
-  .main-info {
-    font-size: 14px;
-  }
+
   .shrink-two {
     font-size: 28px;
   }

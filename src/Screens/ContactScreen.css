@@ -68,4 +68,7 @@
   .contact-input {
     width: 100%;
   }
+  .contact-button {
+    font-size: 15px;
+  }
 }
