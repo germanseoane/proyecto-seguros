@@ -15,6 +15,8 @@ const Header = () => {
         background: appColors.primary,
         display: "flex",
         justifyContent: "space-around",
+        position: "fixed",
+        zIndex: 250,
       }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>

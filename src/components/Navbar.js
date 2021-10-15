@@ -25,7 +25,12 @@ const Navbar = ({ active, setActive, setQuestion }) => {
 
   return (
     <div className="main-navbar">
-      <img src={logo} alt="logo" className="logo" />
+      <img
+        src={logo}
+        alt="logo"
+        className="logo"
+        onClick={() => history.push("/")}
+      />
 
       <Link to="/" className="nav-link">
         <h3>Sobre Nosotros</h3>

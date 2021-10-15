@@ -12,6 +12,7 @@ const Footer = () => {
         width: "100%",
         display: "flex",
         alignItems: "center",
+        zIndex: 10,
       }}
     >
       <p

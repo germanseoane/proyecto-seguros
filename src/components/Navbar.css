@@ -7,9 +7,13 @@
   justify-content: space-around;
   align-items: center;
   z-index: 210;
+  position: fixed;
+  background-color: white;
+  margin-top: 50px;
 }
 .logo {
   height: 90%;
+  cursor: pointer;
 }
 .hamburger {
   display: none;

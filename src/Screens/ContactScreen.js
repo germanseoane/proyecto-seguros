@@ -6,7 +6,7 @@ import ContactForm from "../components/ContactForm";
 const ContactScreen = () => {
   return (
     <div className="contact-main">
-      <h2>Contactenos</h2>
+      <h2 style={{ marginTop: 180 }}>Contactenos</h2>
       <div className="form-container">
         <ContactForm />
         <img alt="contact" src={imgContact} className="contact-img" />

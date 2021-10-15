@@ -17,7 +17,7 @@ const SideDrawer = ({ active, setActive }) => {
 
   return (
     <div className={active ? "sidedrawer show" : "sidedrawer"}>
-      <div className="drawer-header">
+      <div className="drawer-header" onClick={() => handleClick("/")}>
         <img alt="logo" src={drawerImage} className="image" />
       </div>
       <div className="item" onClick={() => handleClick("/")}>
@@ -28,8 +28,8 @@ const SideDrawer = ({ active, setActive }) => {
           style={{ marginTop: 2 }}
         />
       </div>
-      <div className="item" onClick={() => handleClick("/questions")}>
-        Preguntas Frecuentes{" "}
+      <div className="item" onClick={() => handleClick("/full")}>
+        Preguntas Frecuentes
         <IoIosArrowForward
           size={22}
           color={appColors.primary}
