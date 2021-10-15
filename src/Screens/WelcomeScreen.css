@@ -54,6 +54,7 @@
 @media (max-width: 480px) {
   .info-btn {
     width: 200px;
+    font-size: 15px;
   }
   .main-info {
     font-size: 14px;
