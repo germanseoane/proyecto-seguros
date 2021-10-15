@@ -16,6 +16,7 @@
   object-fit: cover;
   border-radius: 4px;
   margin-top: 18px;
+  padding: 4px;
 }
 .form-container {
   width: 74%;
@@ -62,8 +63,9 @@
     align-items: center;
   }
   .contact-img {
-    width: 100%;
+    width: 102%;
     align-self: center;
+    margin-left: 2%;
   }
   .contact-input {
     width: 100%;
