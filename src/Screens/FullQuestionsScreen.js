@@ -191,7 +191,6 @@ const FullQuestionsScreen = () => {
           </button>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
