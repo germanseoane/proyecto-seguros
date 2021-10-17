@@ -2,7 +2,6 @@ import React from "react";
 import fullImage from "../assets/full-image.jpg";
 import "./FullQuestionsScreen.css";
 import InsuranceLogos from "../components/InsuranceLogos";
-import Footer from "../components/Footer";
 import { useHistory } from "react-router-dom";
 
 const FullQuestionsScreen = () => {
