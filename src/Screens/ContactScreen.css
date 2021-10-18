@@ -28,7 +28,7 @@
   width: 76%;
   height: 40px;
   border: solid 1px rgb(221, 217, 217);
-  margin-top: 18px;
+  margin-top: 2px;
   border-radius: 4px;
   padding: 4px;
   font-size: 18px;
@@ -50,10 +50,15 @@
   font-size: 18px;
   font-family: "Arimo", "Segoe UI";
   font-weight: bold;
+  justify-content: space-around;
 }
 .contact-button:hover {
   background-color: var(--primary-color);
   color: white;
+}
+.errors {
+  color: rgb(209, 12, 12);
+  height: 14px;
 }
 
 @media (max-width: 880px) {
