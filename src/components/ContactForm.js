@@ -4,7 +4,6 @@ import * as Yup from "yup";
 import emailjs from "emailjs-com";
 import AppToast from "./AppToast";
 import { SpinnerCircular } from "spinners-react";
-import { appColors } from "../styles/appColors";
 
 const ContactForm = () => {
   const [message, setMessage] = useState(null);
