@@ -44,6 +44,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 .end {
   height: 38%;
