@@ -58,7 +58,6 @@
 }
 .errors {
   color: rgb(209, 12, 12);
-  height: 14px;
 }
 
 @media (max-width: 880px) {
