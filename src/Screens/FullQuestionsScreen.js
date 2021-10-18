@@ -3,6 +3,7 @@ import fullImage from "../assets/full-image.jpg";
 import "./FullQuestionsScreen.css";
 import InsuranceLogos from "../components/InsuranceLogos";
 import { useHistory } from "react-router-dom";
+import obamacareLogo from "../assets/obamacare.jpeg";
 
 const FullQuestionsScreen = () => {
   const history = useHistory();
@@ -16,35 +17,48 @@ const FullQuestionsScreen = () => {
         <div className="full-opacity-three"></div>
 
         <div className="question-info">
-          <h1>Que es Obamacare?</h1>
-          <p>
-            Obamacare asigna un subsidio a las familias para ayudarles a pagar
-            su seguro médico. <br />
-            <br />
-            El seguro Obamacare es el mismo que el seguro privado, la diferencia
-            entre Obama Care y un seguro privado es que si usted califica, se le
-            otorga el subsidio para pagar parte del valor del seguro, mientras
-            que en el seguro privado lo debe pagar por completo. <br />
-            <br />
-            Con el plan Obamacare usted no accede a un seguro de salud sino a un
-            crédito fiscal del gobierno que subsidia los altos costos de los
-            planes médicos privados, pudiendo acceder a los mismos. <br />
-            <br />
-            Si usted califica, se le otorga dicho subsidio para pagar parte del
-            valor del seguro, mientras que en el seguro privado lo debería pagar
-            usted por completo. <br />
-            <br />
-            Los subsidios de este plan ayudan a aquellas personas que no pueden
-            acceder a pólizas debido a su situación económica. Para calificar se
-            toma en consideración la situación familiar, la edad, el hogar y los
-            ingresos de cada cliente. <br />
-            <br />
-            Contáctenos y le asesoraremos para brindarle la cobertura
-            médica/seguro que mejor se adapte a usted y su familia según sus
-            necesidades.
-          </p>
-
-          <h1>Cual es el periodo de inscripcion?</h1>
+          <div className="obamacare-info">
+            <h1>¿Que es Obamacare?</h1>
+            <p>
+              Obamacare asigna un subsidio a las familias para ayudarles a pagar
+              su seguro médico. <br />
+              <br />
+              El seguro Obamacare es el mismo que el seguro privado, la
+              diferencia entre Obama Care y un seguro privado es que si usted
+              califica, se le otorga el subsidio para pagar parte del valor del
+              seguro, mientras que en el seguro privado lo debe pagar por
+              completo. <br />
+              <br />
+              Con el plan Obamacare usted no accede a un seguro de salud sino a
+              un crédito fiscal del gobierno que subsidia los altos costos de
+              los planes médicos privados, pudiendo acceder a los mismos. <br />
+              <br />
+              Si usted califica, se le otorga dicho subsidio para pagar parte
+              del valor del seguro, mientras que en el seguro privado lo debería
+              pagar usted por completo. <br />
+              <br />
+              Los subsidios de este plan ayudan a aquellas personas que no
+              pueden acceder a pólizas debido a su situación económica. Para
+              calificar se toma en consideración la situación familiar, la edad,
+              el hogar y los ingresos de cada cliente. <br />
+              <br />
+              Contáctenos y le asesoraremos para brindarle la cobertura
+              médica/seguro que mejor se adapte a usted y su familia según sus
+              necesidades.
+            </p>
+            <img
+              alt="obamacare"
+              src={obamacareLogo}
+              className="obamacare-logo"
+            />
+          </div>
+          <button
+            className="questions-btn"
+            onClick={() => history.push("/contact")}
+          >
+            Contactenos ahora
+          </button>
+          <h1>¿Cual es el periodo de inscripcion?</h1>
           <p>
             El período de inscripción para el seguro Obama care 2022 (Obamacare
             Open Enrollment) comienza el 1° de noviembre y finaliza el 15 de
@@ -55,7 +69,7 @@ const FullQuestionsScreen = () => {
             haber cambiado de estatus migratorio.
           </p>
 
-          <h1>Que requisitos necesito para calificar?</h1>
+          <h1>¿Que requisitos necesito para calificar?</h1>
           <p>
             _Tener un estatus migratorio legal en Estados Unidos (Permiso de
             _trabajo, residencia, ciudadanía)
@@ -72,7 +86,7 @@ const FullQuestionsScreen = () => {
           </p>
 
           <h1>
-            Qué servicios y coberturas brinda el seguro médico Obama care?
+            ¿Qué servicios y coberturas brinda el seguro médico Obama care?
           </h1>
           <p>
             Obamacare ofrece protección médica a todos los ciudadanos del país.
@@ -93,7 +107,7 @@ const FullQuestionsScreen = () => {
             preventivos
           </p>
 
-          <h1>Qué beneficios tiene el plan de seguros Obama Care?</h1>
+          <h1>¿Qué beneficios tiene el plan de seguros Obama Care?</h1>
           <p>
             Permite a los adultos jóvenes continuar en los planes de sus padres
             hasta los 26 años.
@@ -134,7 +148,7 @@ const FullQuestionsScreen = () => {
             límites en los costos y ofrece diez beneficios esenciales.
           </p>
 
-          <h1>Qué costo tiene el plan de seguro médico Obama Care?</h1>
+          <h1>¿Qué costo tiene el plan de seguro médico Obama Care?</h1>
           <p>
             Los precios de un seguro médico de Obamacare están entre los 0 USD y
             los 75 USD. <br />
@@ -166,7 +180,7 @@ const FullQuestionsScreen = () => {
           </p>
 
           <h1>
-            A partir de cuándo puedo empezar a usar mi cobertura de salud?
+            ¿A partir de cuándo puedo empezar a usar mi cobertura de salud?
           </h1>
           <p>
             Si aplica para un seguro de salud Obamacare en el período de

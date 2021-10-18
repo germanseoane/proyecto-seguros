@@ -68,6 +68,9 @@
   opacity: 0.9;
   border: solid 1px rgb(230, 225, 225);
 }
+.obamacare-logo {
+  width: 80%;
+}
 
 @media (max-width: 900px) {
   .select-question {

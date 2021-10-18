@@ -26,13 +26,13 @@ const WelcomeScreen = () => {
             alignItems: "center",
           }}
         >
-          +1 561-315-0681{" "}
+          +1 561-315-0681
           <FaWhatsapp
-            color="#075E54"
+            color="white"
             size={34}
             style={{
               marginLeft: 6,
-              background: "whitesmoke",
+              background: "#075E54",
               borderRadius: 200,
               padding: 8,
             }}
