@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 40px;
 }
 .contact-img {
   width: 100%;
@@ -21,6 +20,7 @@
   flex-direction: column;
   border-radius: 12px;
   margin-top: 24px;
+  margin-bottom: 24px;
   padding: 18px;
 }
 .contact-input {
@@ -67,6 +67,6 @@
 }
 @media (max-width: 900px) {
   .form-container {
-    width: 94%;
+    width: 84%;
   }
 }
