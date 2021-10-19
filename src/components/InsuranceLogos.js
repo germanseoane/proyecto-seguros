@@ -6,6 +6,7 @@ import brightHealth from "../assets/bright.jpg";
 import molina from "../assets/molina.jpg";
 import aetna from "../assets/aetna.jpg";
 import cigna from "../assets/cigna.jpg";
+import "./InsuranceLogo.css";
 
 const InsuranceLogos = () => {
   return (

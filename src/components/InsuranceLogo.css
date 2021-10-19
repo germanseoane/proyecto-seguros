@@ -1,0 +1,16 @@
+.question-logo {
+  background-color: white;
+  padding: 8px;
+  border-radius: 80px;
+  border: solid 1px rgb(219, 205, 205);
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 4px;
+}
+@media (max-width: 724px) {
+  .question-logo {
+    width: 80%;
+  }
+}

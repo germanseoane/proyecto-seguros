@@ -1,0 +1,36 @@
+.question-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 12px;
+  border: solid 1px rgb(240, 232, 232);
+}
+.last {
+  margin-bottom: 12px;
+}
+.question-button {
+  width: 220px;
+  height: 40px;
+  border: solid 1px rgb(167, 161, 161);
+  color: whitesmoke;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Arimo", "Segoe UI";
+  font-weight: bold;
+  justify-content: space-around;
+}
+.question-button:hover {
+  color: var(--primary-color);
+  background-color: white;
+}
+.obamacare-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.obama-logo {
+  height: 30%;
+  width: 30%;
+}
