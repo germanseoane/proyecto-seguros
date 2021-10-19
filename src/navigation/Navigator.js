@@ -11,11 +11,10 @@ import WelcomeScreen from "../Screens/WelcomeScreen";
 
 const Navigator = () => {
   const [active, setActive] = useState(false);
-  const [question, setQuestion] = useState("OBAMACARE");
   return (
     <Router>
       <Header />
-      <Navbar active={active} setActive={setActive} setQuestion={setQuestion} />
+      <Navbar active={active} setActive={setActive} />
       <SideDrawer active={active} setActive={setActive} />
       <BackDrop active={active} setActive={setActive} />
       <Switch>
