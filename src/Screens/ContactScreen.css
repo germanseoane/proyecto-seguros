@@ -1,6 +1,6 @@
 .contact-main {
   width: 100%;
-  height: 98vh;
+  height: fit-content;
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
@@ -8,49 +8,55 @@
   flex-direction: column;
   padding-bottom: 40px;
 }
-
 .contact-img {
-  width: 40%;
-  height: 48%;
+  width: 100%;
+  height: 300px;
   object-fit: cover;
-  border-radius: 10px;
-  margin-top: 18px;
-  padding: 4px;
 }
 .form-container {
-  width: 74%;
-  height: 100%;
+  width: 50%;
+  height: fit-content;
+  background-color: white;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-top: 24px;
+  padding: 18px;
 }
 .contact-input {
-  width: 76%;
-  height: 40px;
-  border: solid 1px rgb(221, 217, 217);
-  margin-top: 2px;
+  border: none;
+  width: 96%;
+  height: 36px;
   border-radius: 4px;
   padding: 4px;
+  margin: auto;
+  border: solid 1px rgb(216, 208, 208);
   font-size: 18px;
   outline: none;
 }
+
 .message-area {
   height: 92px;
   font-family: "Arimo", "Segoe UI";
 }
 
 .contact-button {
-  width: 240px;
+  width: 38%;
   height: 40px;
   border: solid 1px rgb(167, 161, 161);
   background-color: whitesmoke;
   color: var(--primary-color);
   border-radius: 4px;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 18px;
   font-family: "Arimo", "Segoe UI";
   font-weight: bold;
   justify-content: space-around;
+}
+.contact-h1 {
+  position: absolute;
+  top: 180px;
+  color: white;
 }
 .contact-button:hover {
   background-color: var(--primary-color);
@@ -59,21 +65,8 @@
 .errors {
   color: rgb(209, 12, 12);
 }
-
-@media (max-width: 880px) {
+@media (max-width: 900px) {
   .form-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .contact-img {
-    width: 102%;
-    align-self: center;
-    margin-left: 2%;
-  }
-  .contact-input {
-    width: 100%;
-  }
-  .contact-button {
-    font-size: 15px;
+    width: 94%;
   }
 }

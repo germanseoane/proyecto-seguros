@@ -8,10 +8,10 @@ const ContactScreen = () => {
   return (
     <>
       <div className="contact-main">
-        <h2 style={{ marginTop: 180 }}>Contáctenos</h2>
+        <h1 className="contact-h1">Contáctenos</h1>
+        <img alt="contact" src={imgContact} className="contact-img" />
         <div className="form-container">
           <ContactForm />
-          <img alt="contact" src={imgContact} className="contact-img" />
         </div>
       </div>
       <Footer />

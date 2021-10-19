@@ -2,8 +2,11 @@ import React from "react";
 import "./Questions.css";
 import obamacareLogo from "../assets/obamacare.jpeg";
 import InsuranceLogos from "./InsuranceLogos";
+import { useHistory } from "react-router-dom";
 
 const Questions = () => {
+  const history = useHistory();
+
   return (
     <div>
       <div className="question-container">
@@ -37,7 +40,12 @@ const Questions = () => {
           médica/seguro que mejor se adapte a usted y su familia según sus
           necesidades.
         </p>
-        <button className="question-button">Contáctenos</button>
+        <button
+          className="question-button"
+          onClick={() => history.push("/contact")}
+        >
+          Contáctenos
+        </button>
       </div>
       <div className="question-container">
         <h1>¿Cual es el periodo de inscripcion?</h1>
@@ -50,7 +58,12 @@ const Questions = () => {
           Tiene que haber perdido cobertura por su trabajo o por Medicaid o
           haber cambiado de estatus migratorio.
         </p>
-        <button className="question-button">Contáctenos</button>
+        <button
+          className="question-button"
+          onClick={() => history.push("/contact")}
+        >
+          Contáctenos
+        </button>
       </div>
       <div className="question-container">
         <h1>¿Que requisitos necesito para calificar?</h1>
@@ -68,7 +81,12 @@ const Questions = () => {
           _Aplicar durante el periodo de inscripción para Obamacare 2022 (1° de
           Noviembre al 15 de diciembre)
         </p>
-        <button className="question-button">Contáctenos</button>
+        <button
+          className="question-button"
+          onClick={() => history.push("/contact")}
+        >
+          Contáctenos
+        </button>
       </div>
       <div className="question-container">
         <h1>¿Qué servicios y coberturas brinda el seguro médico Obama care?</h1>
@@ -90,7 +108,12 @@ const Questions = () => {
           _Ingresos hospitalarios Permite la atención psicológica y cuidados
           preventivos
         </p>
-        <button className="question-button">Contáctenos</button>
+        <button
+          className="question-button"
+          onClick={() => history.push("/contact")}
+        >
+          Contáctenos
+        </button>
       </div>
       <div className="question-container">
         <h1>¿Qué beneficios tiene el plan de seguros Obama Care?</h1>
@@ -132,7 +155,12 @@ const Questions = () => {
           Asegura que todos los planes cubran los beneficios mínimos con límites
           en los costos y ofrece diez beneficios esenciales.
         </p>
-        <button className="question-button">Contáctenos</button>
+        <button
+          className="question-button"
+          onClick={() => history.push("/contact")}
+        >
+          Contáctenos
+        </button>
       </div>
       <div className="question-container">
         <h1>¿Qué costo tiene el plan de seguro médico Obama Care?</h1>
@@ -167,7 +195,10 @@ const Questions = () => {
         </p>
         <button className="question-button">Contáctenos</button>
       </div>
-      <div className="question-container">
+      <div
+        className="question-container"
+        onClick={() => history.push("/contact")}
+      >
         <h1>¿A partir de cuándo puedo empezar a usar mi cobertura de salud?</h1>
         <p>
           Si aplica para un seguro de salud Obamacare en el período de
@@ -181,11 +212,21 @@ const Questions = () => {
           Solo a partir de esta fecha, usted podrá contar con los beneficios de
           su cobertura médica.
         </p>
-        <button className="question-button">Contáctenos</button>
+        <button
+          className="question-button"
+          onClick={() => history.push("/contact")}
+        >
+          Contáctenos
+        </button>
       </div>
       <div className="question-container last">
         <InsuranceLogos />
-        <button className="question-button">Contáctenos</button>
+        <button
+          className="question-button"
+          onClick={() => history.push("/contact")}
+        >
+          Contáctenos
+        </button>
       </div>
     </div>
   );
