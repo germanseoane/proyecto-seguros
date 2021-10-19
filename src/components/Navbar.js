@@ -15,16 +15,17 @@ const Navbar = ({ active, setActive, setQuestion }) => {
         className="logo"
         onClick={() => history.push("/")}
       />
-
-      <Link to="/" className="nav-link">
-        <h3>Sobre Nosotros</h3>
-      </Link>
-      <Link to="/full" className="nav-link">
-        <h3>Preguntas Frecuentes</h3>
-      </Link>
-      <Link to="/contact" className="nav-link">
-        <h3>Contáctenos</h3>
-      </Link>
+      <div className="link-wrapper">
+        <Link to="/" className="nav-link">
+          <h4>Home</h4>
+        </Link>
+        <Link to="/full" className="nav-link">
+          <h4>Preguntas Frecuentes</h4>
+        </Link>
+        <Link to="/contact" className="nav-link">
+          <h4>Contáctenos</h4>
+        </Link>
+      </div>
       <GiHamburgerMenu
         size={32}
         onClick={() => setActive(!active)}

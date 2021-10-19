@@ -11,7 +11,7 @@ const Header = () => {
     <div
       style={{
         width: "100%",
-        height: 50,
+        height: 40,
         background: appColors.primary,
         display: "flex",
         justifyContent: "space-around",

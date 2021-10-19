@@ -1,19 +1,20 @@
 .main-navbar {
   width: 100%;
-  height: 100px;
+  height: 90px;
   border-bottom: solid 1px rgb(206, 196, 196);
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   z-index: 210;
   position: fixed;
   background-color: white;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .logo {
   height: 90%;
   cursor: pointer;
+  margin-left: 5%;
 }
 .hamburger {
   display: none;
@@ -22,11 +23,11 @@
   text-decoration: none;
   outline: none;
 }
-h3 {
+h4 {
   color: var(--primary-color);
   padding: 2px;
 }
-h3:hover {
+h4:hover {
   background-color: whitesmoke;
   border-radius: 4px;
 }
@@ -50,9 +51,15 @@ h3:hover {
 .hamburger:hover {
   color: grey;
 }
+.link-wrapper {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 @media (max-width: 900px) {
-  h3 {
+  h4 {
     display: none;
   }
   .first-select {
@@ -60,11 +67,15 @@ h3:hover {
   }
   .hamburger {
     display: flex;
+    margin-right: 5%;
   }
   .no-show {
     display: none;
   }
   .logo {
     height: 80%;
+  }
+  .link-wrapper {
+    display: none;
   }
 }

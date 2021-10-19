@@ -1,0 +1,98 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main-image {
+  width: 100%;
+  height: 102vh;
+  object-fit: cover;
+  color-adjust: 10%;
+  margin-top: 150px;
+}
+.question-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(22, 21, 21);
+  width: 70%;
+  height: fit-content;
+  padding: 20px;
+}
+.question-opacity {
+  width: 100%;
+  height: 124vh;
+  position: absolute;
+  background-color: white;
+  opacity: 0.8;
+  margin-top: -6vh;
+}
+
+.long-text {
+  font-size: 16px;
+}
+
+.questions-btn {
+  width: 240px;
+  height: 40px;
+  border: solid 1px rgb(167, 161, 161);
+  background-color: whitesmoke;
+  color: var(--primary-color);
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Arimo", "Segoe UI";
+  font-weight: bold;
+}
+.questions-btn:hover {
+  background-color: var(--primary-color);
+  color: whitesmoke;
+}
+.select-question {
+  display: none;
+}
+.question-logo {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 4px;
+  align-items: center;
+  height: 18px;
+  justify-content: center;
+  border-radius: 120px;
+  padding: 20px;
+  opacity: 0.9;
+  border: solid 1px rgb(230, 225, 225);
+}
+.obamacare-logo {
+  width: 40%;
+}
+
+@media (max-width: 900px) {
+  .select-question {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (max-width: 754px) {
+  .long-text {
+    font-size: 16px;
+  }
+  .shrink {
+    font-size: 22px;
+  }
+}
+@media (max-width: 520px) {
+  .insurance-image {
+    height: 100%;
+  }
+  .main-image {
+    height: 148vh;
+  }
+  .question-opacity {
+    height: 148vh;
+  }
+}
