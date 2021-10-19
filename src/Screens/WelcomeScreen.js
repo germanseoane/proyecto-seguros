@@ -13,10 +13,16 @@ const WelcomeScreen = () => {
   return (
     <>
       <div className="main-welcome">
-        <RiWhatsappFill
-          size={42}
-          className="whats-icon animate__animated animate__heartBeat"
-        />
+        <a
+          href="https://wa.me/15613150681"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <RiWhatsappFill
+            size={42}
+            className="whats-icon animate__animated animate__heartBeat"
+          />
+        </a>
         <h1 className="absolute-welcome">DP Seguros Latinos</h1>
         <h3 className="absolute-h3">
           Diego Panzardo – Licensed Agent con más de 12 años de experiencia en

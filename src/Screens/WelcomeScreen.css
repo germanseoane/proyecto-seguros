@@ -39,11 +39,11 @@
   right: 6%;
   bottom: 6%;
   color: #58ce5e;
-  padding: 4;
-  background-color: white;
-  border-radius: 200%;
   cursor: pointer;
   opacity: 0.9;
+  padding: 1px;
+  background-color: white;
+  border-radius: 200%;
 }
 .animate__animated.animate__heartBeat {
   --animate-duration: 12s;
