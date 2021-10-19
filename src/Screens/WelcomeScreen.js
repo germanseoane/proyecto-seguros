@@ -32,7 +32,7 @@ const WelcomeScreen = () => {
             size={34}
             style={{
               marginLeft: 6,
-              background: "#075E54",
+              background: "rgb(95, 216, 95)",
               borderRadius: 200,
               padding: 8,
             }}

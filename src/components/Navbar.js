@@ -23,7 +23,7 @@ const Navbar = ({ active, setActive, setQuestion }) => {
         <h3>Preguntas Frecuentes</h3>
       </Link>
       <Link to="/contact" className="nav-link">
-        <h3>CONTACTENOS</h3>
+        <h3>Contáctenos</h3>
       </Link>
       <GiHamburgerMenu
         size={32}
