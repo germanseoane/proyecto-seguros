@@ -4,11 +4,13 @@ import * as Yup from "yup";
 import emailjs from "emailjs-com";
 import AppToast from "./AppToast";
 import { SpinnerCircular } from "spinners-react";
+import { useHistory } from "react-router-dom";
 
 const ContactForm = () => {
   const [message, setMessage] = useState(null);
   const [show, setShow] = useState(false);
   const [loading, setLoading] = useState(false);
+  const history = useHistory();
 
   const showResult = (message) => {
     setMessage(message);
@@ -16,6 +18,7 @@ const ContactForm = () => {
     setTimeout(() => {
       setShow(false);
       setMessage(null);
+      history.push("/");
     }, 2000);
   };
 

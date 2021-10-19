@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Footer";
 import "./WelcomeScreen.css";
 import welcomeImage from "../assets/homepage.jpg";
@@ -9,6 +9,10 @@ import "animate.css";
 
 const WelcomeScreen = () => {
   const history = useHistory();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -23,8 +27,10 @@ const WelcomeScreen = () => {
             className="whats-icon animate__animated animate__heartBeat"
           />
         </a>
-        <h1 className="absolute-welcome">DP Seguros Latinos</h1>
-        <h3 className="absolute-h3">
+        <h1 className="absolute-welcome animate__animated animate__slideInDown">
+          DP Seguros Latinos
+        </h1>
+        <h3 className="absolute-h3  ">
           Diego Panzardo – Licensed Agent con más de 12 años de experiencia en
           el rubro en toda Florida.
         </h3>
