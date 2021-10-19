@@ -4,6 +4,8 @@ import "./WelcomeScreen.css";
 import welcomeImage from "../assets/homepage.jpg";
 import obamaLogo from "../assets/Obamacare-Logo.png";
 import { useHistory } from "react-router-dom";
+import { RiWhatsappFill } from "react-icons/ri";
+import "animate.css";
 
 const WelcomeScreen = () => {
   const history = useHistory();
@@ -11,6 +13,10 @@ const WelcomeScreen = () => {
   return (
     <>
       <div className="main-welcome">
+        <RiWhatsappFill
+          size={42}
+          className="whats-icon animate__animated animate__heartBeat"
+        />
         <h1 className="absolute-welcome">DP Seguros Latinos</h1>
         <h3 className="absolute-h3">
           Diego Panzardo – Licensed Agent con más de 12 años de experiencia en

@@ -13,15 +13,15 @@
   transform: translateX(0);
 }
 .drawer-header {
-  height: 149px;
+  height: 129px;
   border-bottom: 3px solid var(--primary-color);
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 .image {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   object-fit: scale-down;
 }
 
