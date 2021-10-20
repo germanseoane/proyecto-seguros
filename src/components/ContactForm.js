@@ -12,6 +12,7 @@ const ContactForm = () => {
   const [message, setMessage] = useState(null);
   const [show, setShow] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [phone, setPhone] = useState();
   const history = useHistory();
 
   const showResult = (message) => {
@@ -33,13 +34,11 @@ const ContactForm = () => {
           email: Yup.string()
             .email("Debe ser un email valido")
             .required("El campo email es requerido"),
-          phone: Yup.string()
-            .min(4, "Tiene que ser un telefono valido")
-            .required("El campo telefono es requerido"),
         })}
         onSubmit={async (templateParams) => {
           setLoading(true);
           try {
+            templateParams.phone = phone;
             await emailjs.send(
               "service_7iwjh68",
               "template_s0sg6mf",
@@ -89,8 +88,8 @@ const ContactForm = () => {
 
               <p className="errors">{touched.email && errors.email}</p>
               <PhoneInput
-                value={values.phone}
-                onChange={(e) => handleChange(e)}
+                value={phone}
+                onChange={(e) => setPhone(e)}
                 country="us"
                 inputStyle={{
                   border: "none",
