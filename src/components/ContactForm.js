@@ -5,6 +5,8 @@ import emailjs from "emailjs-com";
 import AppToast from "./AppToast";
 import { SpinnerCircular } from "spinners-react";
 import { useHistory } from "react-router-dom";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 const ContactForm = () => {
   const [message, setMessage] = useState(null);
@@ -86,16 +88,20 @@ const ContactForm = () => {
               />
 
               <p className="errors">{touched.email && errors.email}</p>
-              <input
-                placeholder="Telefono *"
-                className="contact-input last"
-                type="text"
-                name="phone"
+              <PhoneInput
                 value={values.phone}
-                onChange={handleChange}
-                onBlur={handleBlur}
+                onChange={(e) => handleChange(e)}
+                country="us"
+                inputStyle={{
+                  border: "none",
+                  borderBottom: "solid 1px black",
+                  borderRadius: 0,
+                  width: "96.8%",
+                  height: 48,
+                  paddingLeft: 48,
+                  fontSize: 18,
+                }}
               />
-              <p className="errors">{touched.phone && errors.phone}</p>
               <textarea
                 placeholder="Mensaje (maximo 150 caracteres)"
                 className="contact-input message-area"

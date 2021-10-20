@@ -33,10 +33,15 @@
   font-size: 18px;
   outline: none;
 }
+.phone-input {
+  border: none;
+  height: 36px;
+}
 
 .message-area {
   height: 92px;
   font-family: "Arimo", "Segoe UI";
+  margin-top: 14px;
 }
 
 .contact-button {
@@ -64,8 +69,12 @@
 .errors {
   color: rgb(209, 12, 12);
 }
+
 @media (max-width: 900px) {
   .form-container {
     width: 84%;
+  }
+  .contact-input {
+    width: 94.6%;
   }
 }
