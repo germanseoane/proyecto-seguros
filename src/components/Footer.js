@@ -15,11 +15,12 @@ const Footer = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        paddingBottom: 12,
         zIndex: 10,
       }}
     >
       <p
-        style={{ marginLeft: 18 }}
+        style={{ marginLeft: 6 }}
       >{`DP Seguros Latinos ©, ${date.getFullYear()}`}</p>
       <div style={{ display: "flex", alignItems: "center" }}>
         <BsFillTelephoneFill color="white" size={18} className="no-show" />
@@ -27,9 +28,16 @@ const Footer = () => {
       </div>
       <div style={{ display: "flex", alignItems: "center" }}>
         <AiOutlineMail color="white" size={18} />
-        <p style={{ color: "white", marginLeft: 6 }}>
+        <a
+          href="mailto:dpseguroslatinos@gmail.com"
+          style={{
+            color: "white",
+            marginLeft: 6,
+            textDecoration: "none",
+          }}
+        >
           dpseguroslatinos@gmail.com
-        </p>
+        </a>
       </div>
     </div>
   );

@@ -100,6 +100,14 @@ const ContactForm = () => {
                   paddingLeft: 48,
                   fontSize: 18,
                 }}
+                buttonStyle={{
+                  border: "none",
+                  borderBlockColor: "black",
+                  borderBottom: "solid 1px black",
+                  background: "whitesmoke",
+                  borderRadius: 0,
+                  paddingRight: 2,
+                }}
               />
               <textarea
                 placeholder="Mensaje (maximo 150 caracteres)"

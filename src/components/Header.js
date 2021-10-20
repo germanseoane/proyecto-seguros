@@ -27,9 +27,12 @@ const Header = () => {
       </div>
       <div style={{ display: "flex", alignItems: "center" }}>
         <AiOutlineMail color="white" size={18} />
-        <p style={{ color: "white", marginLeft: 6 }}>
+        <a
+          href="mailto:dpseguroslatinos@gmail.com"
+          style={{ color: "white", marginLeft: 6, textDecoration: "none" }}
+        >
           dpseguroslatinos@gmail.com
-        </p>
+        </a>
       </div>
       <div
         style={{
