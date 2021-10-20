@@ -91,6 +91,22 @@ const ContactForm = () => {
                 value={phone}
                 onChange={(e) => setPhone(e)}
                 country="us"
+                onlyCountries={[
+                  "ca",
+                  "us",
+                  "mx",
+                  "cu",
+                  "gt",
+                  "hn",
+                  "jm",
+                  "sv",
+                  "pr",
+                  "cr",
+                  "pa",
+                  "ve",
+                  "co",
+                  "do",
+                ]}
                 inputStyle={{
                   border: "none",
                   borderBottom: "solid 1px black",
