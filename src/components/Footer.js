@@ -28,7 +28,7 @@ const Footer = () => {
       <div style={{ display: "flex", alignItems: "center" }}>
         <AiOutlineMail color="white" size={18} />
         <p style={{ color: "white", marginLeft: 6 }}>
-          info@dpseguroslatinos.com
+          dpseguroslatinos@gmail.com
         </p>
       </div>
     </div>
