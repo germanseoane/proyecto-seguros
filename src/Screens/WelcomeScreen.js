@@ -6,7 +6,6 @@ import obamaLogo from "../assets/Obamacare-Logo.png";
 import { useHistory } from "react-router-dom";
 import { RiWhatsappFill } from "react-icons/ri";
 import "animate.css";
-import ObamacareWelcome from "../components/ObamacareWelcome";
 
 const WelcomeScreen = () => {
   const history = useHistory();
