@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./HomeScreen.css";
 import obamaHome from "../assets/home-obamacare.png";
 import { RiWhatsappFill } from "react-icons/ri";
@@ -7,6 +7,10 @@ import Footer from "../components/Footer";
 import HomeForm from "../components/HomeForm";
 
 const HomeScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="main-home">
       <a
