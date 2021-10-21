@@ -7,7 +7,7 @@ const HomeForm = () => {
       <input placeholder="Nombre*" className="simple-input" />
       <input placeholder="Email*" className="simple-input" />
       <input placeholder="Telefono*" className="simple-input simple-last" />
-      <button>Enviar</button>
+      <button className="simple-btn">Enviar</button>
     </div>
   );
 };

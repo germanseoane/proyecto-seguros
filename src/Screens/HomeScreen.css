@@ -74,7 +74,10 @@
     top: 288px;
   }
   .subtitle-home {
-    font-size: 18px;
+    font-size: 16px;
     top: 360px;
+  }
+  .simpletext-home {
+    font-size: 16px;
   }
 }
