@@ -21,7 +21,7 @@ const ContactForm = () => {
     setTimeout(() => {
       setShow(false);
       setMessage(null);
-      history.push("/");
+      history.push("/about");
     }, 2000);
   };
 

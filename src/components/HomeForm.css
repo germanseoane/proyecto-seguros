@@ -7,15 +7,15 @@
   height: 34px;
   border: none;
   border-radius: 4px;
-  margin-top: 12px;
   padding: 4px;
-  font-size: 16px;
+  font-size: 18px;
+  outline: none;
 }
-.simple-last {
-  margin-bottom: 12px;
+.first {
+  margin-top: 16px;
 }
 .simple-btn {
-  height: 34px;
+  height: 38px;
   padding: 4px;
   font-size: 16px;
   background-color: var(--primary-color);
@@ -24,6 +24,7 @@
   border: none;
   font-family: "Arimo", "Segoe UI";
   font-weight: bold;
+  outline: none;
 }
 .simple-btn:hover {
   color: var(--primary-color);
