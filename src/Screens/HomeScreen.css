@@ -29,13 +29,13 @@
   position: absolute;
   top: 344px;
   z-index: 10;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .subtitle-home {
   color: white;
   position: absolute;
-  top: 402px;
+  top: 408px;
   margin-left: 12px;
   margin-right: 12px;
   font-size: 18px;
@@ -70,7 +70,7 @@
     height: 20%;
   }
   .title-home {
-    font-size: 22px;
+    font-size: 21px;
     top: 288px;
   }
   .subtitle-home {
