@@ -25,6 +25,9 @@ const Navbar = ({ active, setActive, setQuestion }) => {
         <Link to="/contact" className="nav-link">
           <h4>Contáctenos</h4>
         </Link>
+        <Link to="/about" className="nav-link">
+          <h4>Quienes Somos</h4>
+        </Link>
       </div>
       <GiHamburgerMenu
         size={32}

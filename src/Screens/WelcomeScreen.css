@@ -45,6 +45,9 @@
   padding: 1px;
   background-color: white;
   border-radius: 200%;
+  -webkit-box-shadow: -2px 11px 9px -6px rgba(8, 8, 8, 0.72);
+  box-shadow: -2px 11px 9px -6px rgba(2, 2, 2, 0.72);
+  z-index: 224;
 }
 .animate__animated.animate__heartBeat {
   --animate-duration: 12s;

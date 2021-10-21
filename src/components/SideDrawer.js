@@ -3,7 +3,7 @@ import "./SideDrawer.css";
 import drawerImage from "../assets/drawer-logo.jpg";
 import { appColors } from "../styles/appColors";
 import { BsFillTelephoneFill, BsQuestionCircle } from "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineHome } from "react-icons/ai";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { FiUser } from "react-icons/fi";
 import { useHistory } from "react-router";
@@ -23,12 +23,12 @@ const SideDrawer = ({ active, setActive }) => {
       </div>
       <div className="item" onClick={() => handleClick("/")}>
         <div className="title-container">
-          <FiUser
+          <AiOutlineHome
             size={20}
             color={appColors.primary}
             style={{ marginRight: "8px" }}
           />
-          Sobre Nosotros
+          Home
         </div>
       </div>
       <div className="item" onClick={() => handleClick("/full")}>
@@ -49,6 +49,16 @@ const SideDrawer = ({ active, setActive }) => {
             style={{ marginRight: "8px" }}
           />
           Contáctenos
+        </div>
+      </div>
+      <div className="item" onClick={() => handleClick("/about")}>
+        <div className="title-container">
+          <FiUser
+            size={20}
+            color={appColors.primary}
+            style={{ marginRight: "8px" }}
+          />
+          Sobre Nosotros
         </div>
       </div>
       <div className="drawer-info">

@@ -7,6 +7,7 @@ import SideDrawer from "../components/SideDrawer";
 import ContactScreen from "../Screens/ContactScreen";
 import ErrorScreen from "../Screens/ErrorScreen";
 import FullQuestionsScreen from "../Screens/FullQuestionsScreen";
+import HomeScreen from "../Screens/HomeScreen";
 import WelcomeScreen from "../Screens/WelcomeScreen";
 
 const Navigator = () => {
@@ -18,7 +19,8 @@ const Navigator = () => {
       <SideDrawer active={active} setActive={setActive} />
       <BackDrop active={active} setActive={setActive} />
       <Switch>
-        <Route exact path="/" component={WelcomeScreen} />
+        <Route exact path="/" component={HomeScreen} />
+        <Route exact path="/about" component={WelcomeScreen} />
         <Route exact path="/full" component={FullQuestionsScreen} />
         <Route exact path="/contact" component={ContactScreen} />
         <Route path="*" component={ErrorScreen} />

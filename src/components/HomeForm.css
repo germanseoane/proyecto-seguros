@@ -1,0 +1,21 @@
+.simpleform-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.simple-input {
+  height: 34px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 12px;
+  padding: 4px;
+  font-size: 16px;
+}
+.simple-last {
+  margin-bottom: 16px;
+}
+@media (max-width: 642px) {
+  .simpleform-container {
+    width: 84%;
+  }
+}
