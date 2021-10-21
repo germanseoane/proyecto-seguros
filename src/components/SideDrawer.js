@@ -31,6 +31,16 @@ const SideDrawer = ({ active, setActive }) => {
           Home
         </div>
       </div>
+      <div className="item" onClick={() => handleClick("/about")}>
+        <div className="title-container">
+          <FiUser
+            size={20}
+            color={appColors.primary}
+            style={{ marginRight: "8px" }}
+          />
+          Sobre Nosotros
+        </div>
+      </div>
       <div className="item" onClick={() => handleClick("/full")}>
         <div className="title-container">
           <BsQuestionCircle
@@ -51,16 +61,7 @@ const SideDrawer = ({ active, setActive }) => {
           Contáctenos
         </div>
       </div>
-      <div className="item" onClick={() => handleClick("/about")}>
-        <div className="title-container">
-          <FiUser
-            size={20}
-            color={appColors.primary}
-            style={{ marginRight: "8px" }}
-          />
-          Sobre Nosotros
-        </div>
-      </div>
+
       <div className="drawer-info">
         <div style={{ display: "flex", alignItems: "center" }}>
           <BsFillTelephoneFill color="white" size={18} />

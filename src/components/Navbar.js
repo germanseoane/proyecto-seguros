@@ -19,14 +19,15 @@ const Navbar = ({ active, setActive, setQuestion }) => {
         <Link to="/" className="nav-link">
           <h4>Home</h4>
         </Link>
+
+        <Link to="/about" className="nav-link">
+          <h4>Sobre nosotros</h4>
+        </Link>
         <Link to="/full" className="nav-link">
           <h4>Preguntas Frecuentes</h4>
         </Link>
         <Link to="/contact" className="nav-link">
           <h4>Contáctenos</h4>
-        </Link>
-        <Link to="/about" className="nav-link">
-          <h4>Quienes Somos</h4>
         </Link>
       </div>
       <GiHamburgerMenu

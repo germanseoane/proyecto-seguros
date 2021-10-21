@@ -41,13 +41,25 @@ const Header = () => {
         }}
         className="no-show"
       >
-        <IoLogoInstagram color="white" size={18} className="no-show" />
-        <FaFacebookF
-          color="white"
-          size={18}
-          style={{ marginLeft: 12 }}
-          className="no-show"
-        />
+        <a
+          href="https://www.instagram.com/dpseguroslatinos/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <IoLogoInstagram color="white" size={18} className="no-show" />
+        </a>
+        <a
+          href="https://www.facebook.com/dpseguroslatinos"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebookF
+            color="white"
+            size={18}
+            style={{ marginLeft: 12 }}
+            className="no-show"
+          />
+        </a>
       </div>
     </div>
   );
