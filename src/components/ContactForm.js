@@ -45,9 +45,7 @@ const ContactForm = () => {
               { templateParams },
               "user_GbvAXVVMgGe1Sa4r8U6bO"
             );
-            showResult(
-              "Gracias por su consulta, lo contactaremos al a brevedad"
-            );
+            showResult("Gracias!, lo contactaremos al a brevedad");
             setLoading(false);
           } catch (err) {
             showResult("Error enviando formulario, intente mas tarde");

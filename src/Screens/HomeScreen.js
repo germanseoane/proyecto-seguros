@@ -30,6 +30,7 @@ const HomeScreen = () => {
       </h1>
       <h3 className="subtitle-home">
         Sabias que para el 2022 los planes de Obama care empiezan desde 0 dólar?
+        <br />
         Contactátenos y un agente especializado te ayudará con todo el proceso.
       </h3>
       <div className="formContainer-home">

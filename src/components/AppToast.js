@@ -5,6 +5,7 @@ const AppToast = ({ title }) => {
     <div
       style={{
         position: "absolute",
+        width: "290px",
         zIndex: 210,
         height: 30,
         backgroundColor: "black",
@@ -16,7 +17,7 @@ const AppToast = ({ title }) => {
         opacity: 0.9,
         alignSelf: "center",
         padding: 12,
-        bottom: 120,
+        bottom: 80,
         fontSize: "15px",
       }}
     >
