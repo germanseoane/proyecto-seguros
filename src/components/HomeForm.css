@@ -25,6 +25,7 @@
   font-family: "Arimo", "Segoe UI";
   font-weight: bold;
   outline: none;
+  margin-top: 28px;
 }
 .simple-btn:hover {
   color: var(--primary-color);

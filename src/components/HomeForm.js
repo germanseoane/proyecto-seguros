@@ -5,12 +5,14 @@ import emailjs from "emailjs-com";
 import AppToast from "./AppToast";
 import { SpinnerCircular } from "spinners-react";
 import { useHistory } from "react-router-dom";
+import PhoneInput from "react-phone-input-2";
 import "./HomeForm.css";
 
 const HomeForm = () => {
   const [message, setMessage] = useState(null);
   const [show, setShow] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [phone, setPhone] = useState();
   const history = useHistory();
 
   const showResult = (message) => {
@@ -31,13 +33,11 @@ const HomeForm = () => {
         email: Yup.string()
           .email("Debe ser un email valido")
           .required("El campo email es requerido"),
-        phone: Yup.string()
-          .min(6, "Debe ser un telefono valido")
-          .required("El campo telefono es requerido"),
       })}
       onSubmit={async (templateParams) => {
         setLoading(true);
         try {
+          templateParams.phone = phone;
           await emailjs.send(
             "service_7iwjh68",
             "template_s0sg6mf",
@@ -83,16 +83,41 @@ const HomeForm = () => {
               onBlur={handleBlur}
             />
             <p className="errors">{touched.email && errors.email}</p>
-            <input
-              placeholder="Telefono*"
-              className="simple-input simple-last"
-              type="number"
-              name="phone"
-              value={values.phone}
-              onChange={handleChange}
-              onBlur={handleBlur}
+            <PhoneInput
+              value={phone}
+              onChange={(e) => setPhone(e)}
+              country="us"
+              onlyCountries={[
+                "ca",
+                "us",
+                "mx",
+                "cu",
+                "gt",
+                "hn",
+                "jm",
+                "sv",
+                "pr",
+                "cr",
+                "pa",
+                "ve",
+                "co",
+                "do",
+              ]}
+              inputStyle={{
+                border: "none",
+                borderRadius: 0,
+                width: "100%",
+                height: 44,
+                paddingLeft: 48,
+                fontSize: 18,
+              }}
+              buttonStyle={{
+                border: "none",
+                background: "whitesmoke",
+                borderRadius: 0,
+                paddingRight: 2,
+              }}
             />
-            <p className="errors">{touched.phone && errors.phone}</p>
             <button className="simple-btn" type="submit">
               <div
                 style={{
