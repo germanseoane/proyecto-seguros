@@ -16,35 +16,30 @@ const Questions = () => {
         </div>
         <p>
           Obamacare asigna un subsidio a las familias para ayudarles a pagar su
-          seguro médico. Es un gran beneficio al cual tenemos derecho, por ley.
-          <br />
-          <br />
-          El seguro Obamacare es el mismo que el seguro privado, la diferencia
-          entre Obamacare y un seguro privado es que si usted califica, se le
-          otorga el subsidio de hasta el 100% para pagar el valor del seguro,
-          mientras que en el seguro privado lo debe pagar por completo.
+          seguro médico. Es un gran beneficio al cual se tiene derecho por ley.
           <br />
           <br />
           Con el plan Obamacare usted no accede a un seguro de salud sino a un
           crédito fiscal del gobierno que subsidia los altos costos de los
-          planes médicos privados, pudiendo acceder a los mismos. <br />
+          planes médicos privados, pudiendo acceder a los mismos.
+          <br />
           <br />
           Si usted califica, se le otorga dicho subsidio para pagar parte del
           valor del seguro, mientras que en el seguro privado lo debería pagar
           usted por completo. <br />
           <br />
           Los subsidios de este plan ayudan a aquellas personas que no pueden
-          acceder a pólizas debido a su situación económica. Para calificar se
-          toma en consideración la situación familiar, la edad, el hogar y los
-          ingresos de cada cliente. <br />
+          acceder a pólizas debido a su situación económica. <br />
+          <br />
+          Para calificar se toma en consideración la situación familiar, la edad
+          y el hogar, entre otros.
+          <br />
           <br />
           Bien trabajado y con buena asesoría , los planes de gobierno de
-          Obamacare, son de los mejores beneficios que tenemos como personas
-          dentro de Estados Unidos.
-          <br />
+          Obamacare, son de los mejores beneficios que tenemos como ciudadanos
+          dentro de Estados Unidos. <br />
           <br /> Contáctenos y le asesoraremos para brindarle la cobertura
-          médica/seguro que mejor se adapte a usted y su familia según sus
-          necesidades.
+          médica que mejor se adapte a usted y su familia según sus necesidades.
         </p>
         <button
           className="question-button"

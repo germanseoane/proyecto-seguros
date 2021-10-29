@@ -40,16 +40,16 @@ const WelcomeScreen = () => {
             <h3>¿Quiénes Somos?</h3>
             <p>
               Somos una empresa familiar, dedicados a educar y ayudar a todas
-              aquellas familias que por falta de asesoramiento, dejan de
+              aquellas familias que, por falta de asesoramiento, dejan de
               adquirir los beneficios a los cuales tienen derecho.
               <br />
               <br /> Empezamos en este negocio en el año 2010 cuando la ley de
               cuidado de salud de bajo precio entro en vigencia, desde entonces
               contamos con profesionales para poder ayudar a todas aquellas
-              personas que necesiten un seguro medico bueno y barato.
+              personas que necesiten un seguro médico bueno y barato.
               <br />
-              <br /> Damos una atencion personalizada, estando a disposicion de
-              nuestros clientes 24/7, hemos trabajo siempre por referidos de
+              <br /> Damos una atención personalizada, estando a disposición de
+              nuestros clientes 24/7, hemos trabajado siempre por referidos de
               nuestros clientes.
             </p>
             <button
@@ -66,13 +66,13 @@ const WelcomeScreen = () => {
               evacuar cualquier duda que te surja.
               <br />
               <br />
-              Desde, que es el Obamacare, cuales son los requisitos para
-              calificar, que servicios y cobertura brinda el seguro medico, que
+              Desde, que es el Obamacare, cuáles son los requisitos para
+              calificar, que servicios y cobertura brinda el seguro médico, que
               costo tiene, etc.
               <br />
               <br />
-              Tambien puedes contactarnos y en ese caso nos comunicaremos
-              rapidamente contigo.
+              También puedes contactarnos y en ese caso nos comunicaremos
+              rápidamente contigo.
               <br />
               <br />
               Estamos a las ordenes por cualquier tipo de duda o consulta que
