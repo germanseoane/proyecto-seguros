@@ -37,7 +37,7 @@ const WelcomeScreen = () => {
         <img alt="welcome" src={welcomeImage} className="welcome-img" />
         <div className="goodies-container">
           <div className="welcome-info">
-            <h3>Quienes Somos</h3>
+            <h3>¿Quiénes Somos?</h3>
             <p>
               Somos una empresa familiar, dedicados a educar y ayudar a todas
               aquellas familias que por falta de asesoramiento, dejan de

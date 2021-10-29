@@ -28,7 +28,7 @@
 .title-home {
   color: white;
   position: absolute;
-  top: 380px;
+  top: 388px;
   z-index: 10;
   margin-left: 10px;
   margin-right: 10px;
@@ -36,7 +36,7 @@
 .subtitle-home {
   color: white;
   position: absolute;
-  top: 424px;
+  top: 432px;
   margin-left: 12px;
   margin-right: 12px;
   font-size: 18px;
@@ -58,6 +58,27 @@
   padding: 6px;
   background-color: white;
   border-radius: 8px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.highlight-container {
+  background-color: red;
+  width: fit-content;
+  padding: 6px;
+  border-radius: 24px;
+  background: rgb(18, 54, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 54, 97, 1) 0%,
+    rgba(13, 156, 196, 1) 100%
+  );
+  color: white;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 @media (max-width: 860px) {
@@ -86,5 +107,10 @@
   }
   .background-home {
     height: 496px;
+  }
+}
+@media (max-width: 320px) {
+  .simpletext-home {
+    font-size: 12px;
   }
 }

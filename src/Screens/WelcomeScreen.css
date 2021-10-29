@@ -23,8 +23,8 @@
   margin: auto;
 }
 .obama-logo {
-  width: 40%;
-  height: 40%;
+  width: 34%;
+  height: 34%;
   margin-top: 22px;
 }
 .goodies-container {
@@ -93,6 +93,10 @@
   .goodies-container {
     flex-direction: column;
     align-items: center;
+  }
+  .obama-logo {
+    width: 40%;
+    height: 40%;
   }
   .welcome-info {
     width: 80%;

@@ -35,13 +35,14 @@ const HomeScreen = () => {
       </h3>
       <div className="formContainer-home">
         <HomeForm />
-        <p className="simpletext-home">
+        <div className="simpletext-home">
           Salieron los nuevos planes Obamacare para el 2022 con muchos más
           beneficios y ayudas, y desde 0 dólar!
-          <br /> Garantice su cobertura médica ya!
-          <br /> Contactátenos y un agente especializado te ayudará con todo el
-          proceso.
-        </p>
+          <br />{" "}
+          <div className="highlight-container">
+            Garantice su cobertura médica ya!
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
