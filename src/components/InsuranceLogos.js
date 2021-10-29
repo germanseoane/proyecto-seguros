@@ -15,7 +15,7 @@ const InsuranceLogos = () => {
         ¿Qué compañías de seguros trabajan con Obamacare en Florida?
       </h1>
       DP Seguros Latinos trabaja con las mejores compañías que aplican al plan
-      Obama Care: <br />
+      Obamacare: <br />
       <br />
       <div className="question-logo">
         <img src={ambetter} alt="ambetter" className="insurance-image" />

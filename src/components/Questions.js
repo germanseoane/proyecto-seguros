@@ -35,7 +35,7 @@ const Questions = () => {
           y el hogar, entre otros.
           <br />
           <br />
-          Bien trabajado y con buena asesoría , los planes de gobierno de
+          Bien trabajado y con buena asesoría, los planes de gobierno de
           Obamacare, son de los mejores beneficios que tenemos como ciudadanos
           dentro de Estados Unidos. <br />
           <br /> Contáctenos y le asesoraremos para brindarle la cobertura
@@ -49,17 +49,17 @@ const Questions = () => {
         </button>
       </div>
       <div className="question-container">
-        <h1>¿Cual es el periodo de inscripcion?</h1>
+        <h1>¿Cuál es el período de inscripción?</h1>
         <p>
           El período de inscripción para el seguro Obamacare 2022 (Obamacare
           Open Enrollment) comienza el 1° de noviembre y finaliza el 15 de
           diciembre del 2021. <br />
           <br />
-          De todas maneras hay muchos casos, en los cuales usted se puede
+          De todas maneras, hay muchos casos, en los cuales usted se puede
           afiliar en cualquier mes del año.
           <br />
           <br />
-          Si usted no pudo afiliarse en el período de inscripcion abierta, no
+          Si usted no pudo afiliarse en el período de inscripción abierta, no
           dude en contactarse con nosotros para poder ayudarlo a afiliarse.
         </p>
         <button
@@ -70,12 +70,12 @@ const Questions = () => {
         </button>
       </div>
       <div className="question-container">
-        <h1>¿Que requisitos necesito para calificar?</h1>
+        <h1>¿Qué requisitos necesito para calificar?</h1>
         <p>
-          _Tener un estatus migratorio legal en Estados Unidos (Permiso de
+          - Tener un estatus migratorio legal en Estados Unidos (Permiso de
           trabajo, residencia, ciudadanía).
           <br />
-          <br /> _No tener cobertura médica a través de su empleador.
+          <br /> - No tener cobertura médica a través de su empleador.
           <br />
         </p>
         <button
@@ -86,29 +86,28 @@ const Questions = () => {
         </button>
       </div>
       <div className="question-container">
-        <h1>¿Qué servicios y coberturas brinda el seguro médico Obama care?</h1>
+        <h1>¿Qué servicios y coberturas brinda el seguro médico Obamacare?</h1>
         <p>
           Obamacare ofrece protección médica a todos los ciudadanos del país.
           Mediante sus diferentes tipos de pólizas nos ayuda a estar protegidos
           financieramente de los siguientes gastos: <br />
           <br />
           <br />
-          _Servicios médicos de emergencia <br />
+          - Servicios médicos de emergencia <br />
           <br />
-          _Consultas de especialistas <br />
+          - Consultas de especialistas <br />
           <br />
-          _Consultas de medicos primarios <br /> <br />
-          _Análisis de laboratorio
+          - Consultas de médicos primarios <br /> <br />
+          - Análisis de laboratorio
           <br />
-          <br /> _Terapias de rehabilitación
+          <br /> - Terapias de rehabilitación
           <br /> <br />
-          _Cuidados preventivos <br />
+          - Cuidados preventivos <br />
           <br />
-          _Medicamentos recetados por el doctor <br />
+          - Medicamentos recetados por el doctor <br />
           <br />
-          _Ingresos hospitalarios <br />
-          <br />
-          _Permite la atención psicológica y cuidados preventivos
+          - Ingresos hospitalarios <br />
+          <br />- Permite la atención psicológica y cuidados preventivos
         </p>
         <button
           className="question-button"
@@ -118,35 +117,34 @@ const Questions = () => {
         </button>
       </div>
       <div className="question-container">
-        <h1>¿Qué beneficios tiene el plan de seguros Obama Care?</h1>
+        <h1>¿Qué beneficios tiene el plan de seguros Obamacare?</h1>
         <p>
-          Permite a los adultos jóvenes continuar en los planes de sus padres
+          - Permite a los adultos jóvenes continuar en los planes de sus padres
           hasta los 26 años.
           <br />
           <br />
-          Permite ver a su doctor primario desde 0 dolar la visita.
+          - Permite ver a su doctor primario desde 0 dólar la visita.
           <br />
           <br />
-          Permite ver a su especialista desde 5 dolares la visita. <br />
+          - Permite ver a su especialista desde 5 dólares la visita. <br />
           <br />
-          Permite tener un deducible de 0 dolar.
+          - Permite tener un deducible de 0 dólar.
           <br />
           <br />
-          Evita que las empresas aseguradoras le nieguen la cobertura o le
+          - Evita que las empresas aseguradoras le nieguen la cobertura o le
           cobren más según su estado de salud, lo descalifiquen si está enfermo
           o si comete algún error honesto en su solicitud. <br />
           <br />
-          Elude la discriminación de género. <br />
+          - Elude la discriminación de género. <br />
           <br />
-          Impide que las compañías aseguradoras impongan incrementos
+          - Impide que las compañías aseguradoras impongan incrementos
           injustificados en las cuotas.
           <br /> <br />
-          Extiende la cobertura a decenas de millones de personas mediante el
+          - Extiende la cobertura a decenas de millones de personas mediante el
           subsidio de costos de seguros médicos a través del Mercado de Seguros
-          Médicos (HealthCare.Gov y los mercados de seguros estatales). <br />
-          <br />
-          Asegura que todos los planes cubran los beneficios mínimos con límites
-          en los costos y ofrece diez beneficios esenciales.
+          Médicos (healthcare.gov y los mercados de seguros estatales). <br />
+          <br />- Asegura que todos los planes cubran los beneficios mínimos con
+          límites en los costos y ofrece diez beneficios esenciales.
         </p>
         <button
           className="question-button"
@@ -156,7 +154,7 @@ const Questions = () => {
         </button>
       </div>
       <div className="question-container">
-        <h1>¿Qué costo tiene el plan de seguro médico Obama Care?</h1>
+        <h1>¿Qué costo tiene el plan de seguro médico Obamacare?</h1>
         <p>
           Los precios de un seguro médico de Obamacare están entre los 0 USD y
           los 45 USD mensuales. <br />
@@ -185,7 +183,7 @@ const Questions = () => {
           enero.
           <br />
           <br />
-          De lo contrario, empezaría el primer dia del mes siguiente de que haya
+          De lo contrario, empezaría el primer día del mes siguiente de que haya
           hecho su solicitud.
           <br />
         </p>

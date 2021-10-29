@@ -124,7 +124,7 @@ const ContactForm = () => {
                 }}
               />
               <textarea
-                placeholder="Mensaje (maximo 150 caracteres)"
+                placeholder="Mensaje (máximo 150 caracteres)"
                 className="contact-input message-area"
                 type="text"
                 name="message"

@@ -29,18 +29,18 @@ const HomeScreen = () => {
         ¿Por qué contratar Obamacare con DP Seguros Latinos?
       </h1>
       <h3 className="subtitle-home">
-        Sabias que para el 2022 los planes de Obamacare empiezan desde 0 dólar?
+        ¿Sabías que para el 2022 los planes de Obamacare empiezan desde 0 dólar?
         <br />
-        Contactátenos y un agente especializado te ayudará con todo el proceso.
+        Contáctenos y un agente especializado te ayudará con todo el proceso.
       </h3>
       <div className="formContainer-home">
         <HomeForm />
         <div className="simpletext-home">
-          Salieron los nuevos planes Obamacare para el 2022 con muchos más
+          ¡Salieron los nuevos planes Obamacare para el 2022 con muchos más
           beneficios y ayudas, y desde 0 dólar!
-          <br />{" "}
+          <br />
           <div className="highlight-container">
-            Garantice su cobertura médica ya!
+            ¡Garantice su cobertura médica ya!
           </div>
         </div>
       </div>

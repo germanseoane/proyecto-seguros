@@ -21,7 +21,7 @@ const Footer = () => {
     >
       <p
         style={{ marginLeft: 6 }}
-      >{`DP Seguros Latinos ©, ${date.getFullYear()}`}</p>
+      >{`DP Seguros Latinos © - ${date.getFullYear()}`}</p>
       <div style={{ display: "flex", alignItems: "center" }}>
         <BsFillTelephoneFill color="white" size={18} className="no-show" />
         <p style={{ color: "white", marginLeft: 6 }}>+1 561-315-0681</p>
