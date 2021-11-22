@@ -130,10 +130,9 @@ const Questions = () => {
           <br />
           - Permite tener un deducible de 0 dólar.
           <br />
-          <br />
-          - Evita que las empresas aseguradoras le nieguen la cobertura o le
-          cobren más según su estado de salud, lo descalifiquen si está enfermo
-          o si comete algún error honesto en su solicitud. <br />
+          <br />- Evita que las empresas aseguradoras le nieguen la cobertura o
+          le cobren más según su estado de salud, lo descalifiquen si está
+          enfermo o si comete algún error honesto en su solicitud. <br />
           <br />
           - Elude la discriminación de género. <br />
           <br />
